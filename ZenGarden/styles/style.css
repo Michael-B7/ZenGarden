@@ -1,0 +1,175 @@
+.page-wrapper > :not(aside){
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25em;
+}
+
+:root{
+    background-color: #5f9ea0;
+    margin:0 auto;
+}
+
+#css-zen-garden{
+    margin: 0px;
+}
+
+a:visited {
+    color:aqua;
+}
+
+p{
+    color:lightcyan;
+}
+
+ul > li{
+    padding-bottom: 8px;
+    color:aqua;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+div.wrapper{
+    margin-top: 25px;
+    padding-top:5px;
+
+    margin-left: -2px;
+    display: flex;
+
+}
+
+a[href^="http://www.mezzoblue.com"]:link{
+    color: rgb(255,0,0);
+}
+
+a[href*="http://www.mezzoblue.com"]:hover{
+    color:blue
+}
+
+a:link{
+    color:#8CEAED;
+}
+
+.wrapper h3{
+    color:#8CEAED;
+}
+
+a:hover{
+    color: brown;
+}
+
+section, section+div{
+    margin:7px;
+}
+
+div.wrapper > *{
+    display:inline-block;
+    padding:10px;
+    border-left: 2px solid white;
+    height: 100%;
+    margin-top:10px;
+}
+
+p::first-letter{
+    font-size:1.2em
+}
+
+p::first-line{
+    color:white;
+}
+
+div.wrapper > div:nth-child(2){
+    padding-bottom: 161px;
+    text-align: center;
+    width: 100%;
+}
+
+div.wrapper > div:nth-last-child(1){
+    padding-bottom: 82px;
+    text-align: center;
+    width: 100%;
+}
+
+div.wrapper > div:first-child{
+    text-align: center;
+    width: 100%;
+}
+
+a:active{
+    text-decoration:none;
+}
+
+h1:only-of-type{
+    color:pink;
+}
+
+.page-wrapper .intro h2{
+    color:pink;
+}
+
+[class] > [role="article"] > h3{
+    color:pink;
+}
+
+div ~ footer{
+    text-align: center;
+    margin: 30px;
+    max-width:100%
+}
+
+.main.supporting > footer:nth-last-of-type(1) > *{
+    padding: 10px;
+    background: #63B8A3;
+    border: 3px dashed #5E81AD
+}
+
+h1::before{
+    content:url(/images/fish-banner.jpg) "\a" "\a";
+    white-space: pre;
+    display:block;
+    text-align:center
+}
+
+footer::after{
+    content:"\a" "\a" "\a" url(/images/Marine_Life_Banner.jpg);
+    white-space:pre;
+    zoom:20%;
+}
+
+p:first-of-type{
+    margin-top: 50px;
+}
+
+p:last-of-type{
+    margin-bottom:50px;
+}
+
+div:empty{
+    padding:.75px;
+    background-color: #396061;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+::selection{
+    background-color: black;
+}
+
+p:last-child{
+    color:aliceblue
+}
+
+aside[class$=sidebar] > div[class|=wrapper] > div[class~=design-selection], div.wrapper{
+    background-color:#396061;
+}
+
+a:only-child{
+    padding: 5px;
+}
+
+h1:nth-of-type(1){
+    font-size: 3em;
+}
